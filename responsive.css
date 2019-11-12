@@ -1,0 +1,201 @@
+
+
+@media only screen and (max-width: 320px) {
+	
+
+
+
+	.container {
+	display: grid;
+	grid-row-gap: 20px;
+	
+
+	grid-template-columns: 320px;
+	grid-template-rows: auto auto auto auto auto auto auto;
+	grid-template-areas: "head"
+						 "menu"
+						 "galeria"
+						 "nosotros"
+						 "contacto"
+						 "contacto2"
+						 "foot"
+						 
+
+}
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header img {
+	transform: scale(0.8);
+}					 
+
+
+p {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	transform: scale(0.8);
+	
+
+	
+
+}
+
+h2{
+	
+	text-align: center;
+
+}
+
+
+
+video {
+	display: none;
+}
+
+.primera {
+	padding-left: 2px;
+	
+}
+
+
+#caja3 {
+	display: flex;
+	flex-direction: column;
+	
+	
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+
+	width: 310px;
+	text-align:center;
+	margin-left: 5px;
+	margin-bottom: 10px;
+
+}
+
+#caja2 {
+	transform: scale(0.8);
+	margin: 0px;
+	padding: 0px;
+	
+	width: 310px;
+
+	
+	
+}
+
+#cajaparrafo {
+	transform: scale(0.8);
+	margin: 0px;
+	padding: 0px;
+	
+	width: 310px;
+	padding-left: 10px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+.navbar {
+
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+
+	margin-top: -30px;
+	padding-bottom: 30px;
+	margin-left: 30px;
+	justify-content: center;
+
+	
+
+}
+
+.linea {
+	width: 300px;
+
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	
+
+	text-align:center;
+	margin-left:; 
+}
+
+.footer a {
+	padding: 0px;
+
+}
+
+.formulario {
+	width: 300px;
+	margin: 0px;
+	
+	margin-left: 5px;
+	text-align: center;
+
+}
+
+
+.tel {
+	margin:0px;
+	padding: 0px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+
+}
+
+iframe {
+	transform: scale(0.7);
+	margin-left: -72px;
+}
+
+.mapa {
+
+
+}
+
+.info {
+	margin: 0px;
+	
+	text-align:;
+
+
+}
+
+.cajita {
+	display: flex;
+	flex-direction: column;
+		text-align: center;
+}
+
+.redes {
+
+	justify-content: center;
+}
+
+
+	
+}

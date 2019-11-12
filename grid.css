@@ -1,0 +1,74 @@
+
+
+.container {
+	font-family: 'Monda', sans-serif;
+	display: grid;
+
+
+	grid-column-gap: 40px;
+	grid-row-gap: 10px; 
+
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: auto auto auto auto auto;
+
+grid-template-areas: "head menu menu "
+					 "galeria galeria galeria"
+					 "nosotros nosotros nosotrosimg"
+					 "contacto contacto contacto2"
+					 "foot foot foot";
+
+
+
+
+
+
+}
+
+
+
+
+
+.box1 {
+	grid-area: head;
+}
+.box2 {
+	grid-area: menu;
+	align-self: center;
+}
+}
+
+.box3 {
+
+	grid-area: nosotrosimg;
+
+	
+}
+
+.box4 {
+	
+	grid-area: galeria; 
+}
+.box5 {
+	grid-area:contacto2 ;
+}
+
+.box6 {
+	grid-area: nosotros; 
+
+}
+.box7 {
+	grid-area: contacto;
+	color: white;
+}
+
+.box8 {
+	grid-area: foot; 
+	
+
+}
+
+
+}
+
+
+
